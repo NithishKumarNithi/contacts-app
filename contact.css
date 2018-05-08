@@ -1,0 +1,84 @@
+body{
+    margin:20px;
+    padding:0;
+}
+
+header{
+    margin:20px;
+    padding:20px;
+    background-color: chartreuse;
+    text-align:center;
+}
+header h1{
+    color:white;
+}
+form{
+    margin:20px;
+    padding:20px;
+    background-color:lavender;
+}
+form input#name,form input#mobile{
+    margin-left:10%;
+    padding-left:10px;
+    width:250px;
+    height:30px;
+}
+form button#save{
+    margin-left:20.3%;
+    width:80px;
+    height:30px;
+    font-size:15px;
+    font-weight:bold;
+    background-color:lawngreen;
+    border:none;
+    color:white;
+    outline:none;
+}
+#contact_list{
+    margin:20px;
+    padding:20px;
+    background-color:lavender;
+    display:block;
+}
+ul{
+    list-style:none;
+}
+#contact_list ul li span.list_contact{
+    position:absolute;
+    margin-top:5px;
+    margin-left:8%;
+    font-size: 1.3em;
+}
+#contact_list ul li span.list_number{
+    position:absolute;
+    margin-top:5px;
+    margin-left:35%;
+    font-size: 1.3em;
+}
+#contact_list ul li button.list_edit{
+    position:absolute;
+    margin-top:5px;
+    margin-left:73%;
+    width:80px;
+    height:30px;
+    font-size:15px;
+    font-weight:bold;
+    background-color:dodgerblue;
+    border:none;
+    color:white;
+    outline:none;
+}
+#contact_list ul li  button.list_delete{
+    position:relative;
+    margin-top:5px;
+    margin-left:92%;
+    width:80px;
+    height:30px;
+    font-size:15px;
+    font-weight:bold;
+    background-color:red;
+    border:none;
+    color:white;
+    outline:none;
+}
+
